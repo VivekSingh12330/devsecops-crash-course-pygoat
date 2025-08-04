@@ -6,9 +6,9 @@ jobs:
   runs-on: ubuntu-latest
   stps:
     -name: Checkout code
-     uses: actions/checkout@V2
+     uses: actions/checkout@V3
     -name: Set up Python
-     uses: actions/setup-python@v2
+     uses: actions/setup-python@v3
      with:
      python-version: 3.8
      -name: install Bandit
